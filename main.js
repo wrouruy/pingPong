@@ -40,7 +40,6 @@ const ball = {
 ball.x = ball.x + Math.cos(ball.angle) + platform.width;
 ball.y = ball.y + Math.sin(ball.angle) * 50;
 
-
 function draw(){
     [cvs.width, cvs.height] = [window.innerWidth, window.innerHeight];
     ctx.translate(cvs.width / 2, cvs.height / 2);
